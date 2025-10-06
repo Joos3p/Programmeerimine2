@@ -10,7 +10,7 @@ class Person{
     }
 
     printPerson() {
-        console.log(this.#name + ', age ' + this.#age + ' years')
+        console.log(this.#name + ", age " + this.#age + " years")
     }
 
     becomeOlder() {
