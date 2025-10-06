@@ -40,7 +40,7 @@ persons.forEach(person => {
 
 persons.forEach(person => {
     if (person.getBMI() !== false) {
-        console.log(person.getName() + " has a BMI of: ${person.getBMI()}")
+        console.log(person.getName() + ` has a BMI of: ${person.getBMI()}`)
     } else {
         console.log("BMI unavailable because height or weight is zero or not a number.")
     }
