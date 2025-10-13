@@ -65,4 +65,3 @@ const getPostbyId = (req, res) => {
         res.end(JSON.stringify({ message: "Post not found"}));
     }
 }
-
